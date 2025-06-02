@@ -1,6 +1,4 @@
-import {
-  ConsultlyLogo,
-} from "@/images/logos";
+import { ConsultlyLogo } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -12,15 +10,17 @@ export const RESUME_DATA = {
     "Detail-oriented Software Engineer dedicated to building high-quality products.",
   summary: (
     <>
-      I am a backend-focused Software Engineer with 7 years of experience,
-      specializing in high-performance PHP applications, scalable Golang services,
-      and real-time collaboration systems. Experienced in technical architecture design.
-      Throughout my career, I have excelled in various architectural approaches including
-      microservices, monolith and serverless. I possess an extensive skill set that spans
-      diverse programming languages and frameworks such as
-      PHP, Symfony, TypeScript and NestJS along with expertise in technologies like
-      MySQL, MongoDB, Redis, Docker, Elasticsearch, RabbitMQ and more.
-
+      I’m an experienced software developer with 7+ years of hands-on experience
+      in building scalable, robust, and high-performance systems. I’ve worked
+      across various architectural styles including microservices, monolithic,
+      and serverless infrastructures. My technology stack spans PHP (Symfony),
+      TypeScript, Go, MySQL, MongoDB, Redis, Elasticsearch, Docker, RabbitMQ,
+      AWS, GCP. I’m passionate about clean architecture, system design, and
+      delivering reliable, maintainable solutions that drive real-world value.
+      Over the years, I’ve built production-grade applications using TypeScript
+      and NestJS, and I’m currently deepening my expertise in Go, exploring its
+      simplicity and performance for backend development as part of my ongoing
+      technical growth and personal interest.
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/41720222?v=4",
@@ -64,28 +64,52 @@ export const RESUME_DATA = {
       end: null,
       description: (
         <>
-          Teknasyon stands out as a premier mobile app developer and
-          infrastructure/content provider. Apart from successfully delivering
-          products in both B2B and B2C realms, Teknasyon also provides support
-          to burgeoning startups on their path to global expansion.
+          Teknasyon is an innovative technology company providing global eSIM
+          solutions. With a comprehensive eSIM infrastructure and digital
+          services, Teknasyon delivers seamless, secure, and user-friendly
+          mobile connectivity experiences to both individual consumers and
+          enterprise clients. As a leading player in the telecom industry’s
+          digital transformation, Teknasyon offers scalable platforms that
+          accelerate adoption of eSIM technology. The company also supports
+          emerging startups by providing cutting-edge solutions to help them
+          scale globally.
           <ul className="list-inside list-disc">
             <li>
-              Backend development of the eSIM mobile application using Symfony 6
-              and PHP 8.2.
+              Designing and developing scalable backend services for the eSIM
+              platform to support dynamic provisioning, activation, and
+              management of eSIM profiles.
             </li>
             <li>
-              Backend development of the eSIMCore project, which facilitates
-              communication with other SIM service providers for package
-              information, pricing and additional information utilizing Symfony
-              6 and PHP 8.2.
+              Building and maintaining robust API integrations with global
+              telecom operators and SIM providers to enable seamless package
+              retrieval, pricing updates, and subscription management.
             </li>
             <li>
-              Performance enhancements via OPCache, JIT and FrankenPHP. Database
-              design and query optimization.
+              Implementing services with latest versions of Symfony and PHP to
+              ensure modularity, high availability and efficient maintenance.
             </li>
             <li>
-              Achieving rapid response times through Redis caching. Creation of
-              openAPI (swagger) documentation. Testing with PHPUnit.
+              Optimizing system performance and resource usage by leveraging
+              FrankenPHP for asynchronous processing and real-time operations.
+            </li>
+            <li>
+              Designing and optimizing complex database schemas and queries on
+              MySQL and MongoDB to handle large-scale subscriber data securely
+              and efficiently.
+            </li>
+            <li>
+              Developing advanced caching strategies with Redis to reduce
+              latency and improve response times in high-traffic environments.
+            </li>
+            <li>
+              Creating and maintaining comprehensive OpenAPI (Swagger)
+              documentation to streamline collaboration between frontend,
+              backend, and third-party integrators.
+            </li>
+            <li>
+              Implementing automated testing and continuous integration
+              workflows using PHPUnit to ensure code quality and reliability in
+              production.
             </li>
           </ul>
         </>
@@ -101,9 +125,9 @@ export const RESUME_DATA = {
       end: "2023",
       description: (
         <>
-          Bonded (24 Saatte İş) is a mobile application that connects employers and job seekers
-          and its tech stack includes PHP, Symfony, TypeScript, NestJs, MySQL,
-          MongoDB, Elasticsearch, React, React Native and AWS.
+          Bonded (24 Saatte İş) is a mobile application that connects employers
+          and job seekers and its tech stack includes PHP, Symfony, TypeScript,
+          NestJs, MySQL, MongoDB, Elasticsearch, React, React Native and AWS.
           <ul className="list-inside list-disc">
             <li>
               Migrating PHP (Symfony) to Typescript (NestJS) microservices
