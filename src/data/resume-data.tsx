@@ -55,8 +55,8 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Teknasyon",
-      link: "https://teknasyon.com",
+      company: "eSIM io (Teknasyon)",
+      link: "https://esim.io",
       badges: ["On-site", "PHP", "Symfony", "Golang", "RabbitMQ"],
       title: "Sr. Software Developer",
       logo: ConsultlyLogo,
@@ -73,6 +73,7 @@ export const RESUME_DATA = {
           accelerate adoption of eSIM technology. The company also supports
           emerging startups by providing cutting-edge solutions to help them
           scale globally.
+
           <ul className="list-inside list-disc">
             <li>
               Designing and developing scalable backend services for the eSIM
