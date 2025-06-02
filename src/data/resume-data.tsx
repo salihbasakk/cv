@@ -73,7 +73,7 @@ export const RESUME_DATA = {
           accelerate adoption of eSIM technology. The company also supports
           emerging startups by providing cutting-edge solutions to help them
           scale globally.
-
+          <br></br>
           <ul className="list-inside list-disc">
             <li>
               Designing and developing scalable backend services for the eSIM
